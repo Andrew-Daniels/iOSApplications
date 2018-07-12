@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dgb-fL-5WF">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gFL-pL-MAG">
+            <objects>
+                <viewController id="dgb-fL-5WF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jaw-hL-Iv7">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Bt-lo-Tlh" userLabel="TitleView">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="37.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJL-3o-ll8">
+                                        <rect key="frame" x="214" y="-5" width="239" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="qJL-3o-ll8" firstAttribute="centerX" secondItem="6Bt-lo-Tlh" secondAttribute="centerX" id="9cK-Cw-GT6"/>
+                                    <constraint firstItem="qJL-3o-ll8" firstAttribute="centerY" secondItem="6Bt-lo-Tlh" secondAttribute="centerY" id="Lrn-uf-Fvr"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U1A-df-csi" userLabel="TextView">
+                                <rect key="frame" x="8" y="46" width="367" height="321"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pj-5x-aQk" userLabel="ControlView">
+                                <rect key="frame" x="383" y="46" width="276" height="321"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ooF-cC-ev5">
+                                        <rect key="frame" x="6" y="247" width="264" height="31"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </slider>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Fo-xl-Xwr">
+                                        <rect key="frame" x="1" y="1" width="274" height="238"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="n4n-Nf-RFb">
+                                        <rect key="frame" x="8" y="285" width="260" height="29"/>
+                                        <segments>
+                                            <segment title="First"/>
+                                            <segment title="Second"/>
+                                            <segment title="Third"/>
+                                            <segment title="Fourth"/>
+                                            <segment title="Fifth"/>
+                                        </segments>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0Fo-xl-Xwr" secondAttribute="trailing" constant="1" id="09f-NI-cVT"/>
+                                    <constraint firstItem="ooF-cC-ev5" firstAttribute="top" secondItem="0Fo-xl-Xwr" secondAttribute="bottom" constant="8" id="2Sx-vy-aqo"/>
+                                    <constraint firstItem="0Fo-xl-Xwr" firstAttribute="leading" secondItem="9pj-5x-aQk" secondAttribute="leading" constant="1" id="2uf-CE-cKf"/>
+                                    <constraint firstItem="ooF-cC-ev5" firstAttribute="top" secondItem="n4n-Nf-RFb" secondAttribute="bottom" constant="8" id="Cet-94-xAg"/>
+                                    <constraint firstItem="0Fo-xl-Xwr" firstAttribute="top" secondItem="9pj-5x-aQk" secondAttribute="top" constant="1" id="Hbg-pV-ktM"/>
+                                    <constraint firstAttribute="trailing" secondItem="n4n-Nf-RFb" secondAttribute="trailing" constant="8" id="JpC-FW-7Ht"/>
+                                    <constraint firstAttribute="bottom" secondItem="n4n-Nf-RFb" secondAttribute="bottom" constant="8" id="T30-NP-o0P"/>
+                                    <constraint firstItem="n4n-Nf-RFb" firstAttribute="leading" secondItem="9pj-5x-aQk" secondAttribute="leading" constant="8" id="b6X-m8-Ht4"/>
+                                    <constraint firstItem="n4n-Nf-RFb" firstAttribute="top" secondItem="ooF-cC-ev5" secondAttribute="bottom" constant="8" id="oDe-a9-jpN"/>
+                                    <constraint firstItem="n4n-Nf-RFb" firstAttribute="top" secondItem="9pj-5x-aQk" secondAttribute="top" constant="8" id="si6-kL-ACe"/>
+                                    <constraint firstAttribute="trailing" secondItem="ooF-cC-ev5" secondAttribute="trailing" constant="8" id="vgt-Cf-pmT"/>
+                                    <constraint firstItem="ooF-cC-ev5" firstAttribute="leading" secondItem="9pj-5x-aQk" secondAttribute="leading" constant="8" id="viF-pe-ZfD"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="0Fo-xl-Xwr"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="09f-NI-cVT"/>
+                                        <exclude reference="2uf-CE-cKf"/>
+                                        <exclude reference="Hbg-pV-ktM"/>
+                                        <exclude reference="2Sx-vy-aqo"/>
+                                        <exclude reference="T30-NP-o0P"/>
+                                        <exclude reference="oDe-a9-jpN"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="0Fo-xl-Xwr"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="09f-NI-cVT"/>
+                                        <include reference="2uf-CE-cKf"/>
+                                        <include reference="Hbg-pV-ktM"/>
+                                        <include reference="2Sx-vy-aqo"/>
+                                        <exclude reference="Cet-94-xAg"/>
+                                        <include reference="T30-NP-o0P"/>
+                                        <include reference="oDe-a9-jpN"/>
+                                        <exclude reference="si6-kL-ACe"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U1A-df-csi" firstAttribute="top" secondItem="6Bt-lo-Tlh" secondAttribute="bottom" constant="8" id="0id-O5-9bm"/>
+                            <constraint firstItem="2NQ-l3-U1l" firstAttribute="trailing" secondItem="9pj-5x-aQk" secondAttribute="trailing" id="7Er-3D-2vg">
+                                <variation key="heightClass=compact-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="2NQ-l3-U1l" firstAttribute="bottom" secondItem="U1A-df-csi" secondAttribute="bottom" constant="8" id="CLd-5a-qBk"/>
+                            <constraint firstItem="6Bt-lo-Tlh" firstAttribute="leading" secondItem="2NQ-l3-U1l" secondAttribute="leading" id="DWz-OK-b1Q"/>
+                            <constraint firstItem="9pj-5x-aQk" firstAttribute="top" secondItem="6Bt-lo-Tlh" secondAttribute="bottom" constant="8" id="ET4-vF-CIA"/>
+                            <constraint firstItem="2NQ-l3-U1l" firstAttribute="bottom" secondItem="9pj-5x-aQk" secondAttribute="bottom" id="Lj3-D8-tEd">
+                                <variation key="heightClass=compact-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="U1A-df-csi" firstAttribute="width" secondItem="jaw-hL-Iv7" secondAttribute="width" multiplier="0.55" id="OCa-fB-0OR"/>
+                            <constraint firstItem="6Bt-lo-Tlh" firstAttribute="height" secondItem="jaw-hL-Iv7" secondAttribute="height" multiplier="0.1" id="Res-ox-Lqm"/>
+                            <constraint firstItem="6Bt-lo-Tlh" firstAttribute="top" secondItem="jaw-hL-Iv7" secondAttribute="top" id="UWg-bt-ohB"/>
+                            <constraint firstItem="U1A-df-csi" firstAttribute="height" secondItem="jaw-hL-Iv7" secondAttribute="height" multiplier="0.7" id="bbE-Ht-sPH"/>
+                            <constraint firstItem="9pj-5x-aQk" firstAttribute="leading" secondItem="2NQ-l3-U1l" secondAttribute="leading" id="e6d-xf-ANm"/>
+                            <constraint firstItem="U1A-df-csi" firstAttribute="leading" secondItem="2NQ-l3-U1l" secondAttribute="leading" id="fsH-yD-lWJ">
+                                <variation key="heightClass=compact-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="2NQ-l3-U1l" firstAttribute="trailing" secondItem="6Bt-lo-Tlh" secondAttribute="trailing" id="fx8-Ja-phF"/>
+                            <constraint firstItem="9pj-5x-aQk" firstAttribute="leading" secondItem="U1A-df-csi" secondAttribute="trailing" constant="8" id="kxI-mD-Zjq"/>
+                            <constraint firstItem="9pj-5x-aQk" firstAttribute="top" secondItem="U1A-df-csi" secondAttribute="bottom" constant="8" id="qRf-EN-Wes"/>
+                            <constraint firstItem="2NQ-l3-U1l" firstAttribute="trailing" secondItem="U1A-df-csi" secondAttribute="trailing" id="t6d-KL-ntl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2NQ-l3-U1l"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CLd-5a-qBk"/>
+                                <exclude reference="OCa-fB-0OR"/>
+                                <exclude reference="ET4-vF-CIA"/>
+                                <exclude reference="kxI-mD-Zjq"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="CLd-5a-qBk"/>
+                                <exclude reference="t6d-KL-ntl"/>
+                                <include reference="OCa-fB-0OR"/>
+                                <exclude reference="bbE-Ht-sPH"/>
+                                <include reference="ET4-vF-CIA"/>
+                                <exclude reference="e6d-xf-ANm"/>
+                                <include reference="kxI-mD-Zjq"/>
+                                <exclude reference="qRf-EN-Wes"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1K-xv-PLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65.217391304347828" y="101.59999999999999"/>
+        </scene>
+    </scenes>
+</document>
