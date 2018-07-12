@@ -1,2 +1,2 @@
 # iOSApplications
-Android Applications made in Xcode / Swift for college.
+iOS Applications made in Xcode / Swift for college.
