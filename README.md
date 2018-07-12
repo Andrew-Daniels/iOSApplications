@@ -1,2 +1,2 @@
-# AndroidApplications
-Android Applications made in Android Studio / Java for college.
+# iOSApplications
+Android Applications made in Xcode / Swift for college.
