@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DanielsAndrew_CE05</string>
+    <string name="name">Name:</string>
+    <string name="birth">Birth Date:</string>
+    <string name="hobby">Hobby:</string>
+    <string-array name="descriptions">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius lacus diam, quis fringilla purus mattis at. Donec sodales malesuada neque. Nulla sapien purus, convallis quis placerat sed, egestas id metus. In sit amet faucibus metus, a ornare nisi. Nunc in tellus a massa viverra auctor. Proin at ligula diam. Nam facilisis ornare ex et convallis. Suspendisse pretium quam eu purus accumsan, ac ultrices enim dictum. Nunc at mattis massa, quis rhoncus sapien. Etiam non ex eu sem cursus faucibus. Praesent semper lectus eget luctus placerat. Ut dapibus lacus ut massa hendrerit, dapibus porta purus pharetra. Donec nisl lorem, scelerisque eget maximus non, rutrum eu purus. Etiam vestibulum efficitur mauris, eget posuere dui tincidunt in.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat fringilla ante sit amet ullamcorper. Maecenas sit amet risus tincidunt, imperdiet arcu ac, sodales dui. Quisque a dolor eget velit gravida viverra. Morbi vitae nunc in ligula laoreet faucibus. Aenean quis convallis mi. Suspendisse molestie, lectus at pretium sagittis, neque dolor cursus diam, nec consectetur ligula ex eu dolor. Duis sed ullamcorper nisi. Quisque vulputate sodales aliquam. Donec non tortor faucibus, faucibus orci sed, suscipit augue. Curabitur pulvinar nisi vitae augue tristique sollicitudin. In egestas ac orci at pulvinar. Morbi varius tristique egestas. Aliquam dignissim ex vel elementum volutpat. Phasellus id laoreet odio, nec ullamcorper nisl. Pellentesque in lectus metus. Donec finibus sapien leo, eu finibus nisl auctor a.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis dictum ante ac pharetra. Nulla vel ipsum in odio ultrices dictum. Curabitur euismod feugiat mattis. Sed cursus elementum auctor. Vivamus.</item>
+        <item>Nulla at nisl placerat mauris dapibus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec varius, est eu imperdiet hendrerit, massa mi consequat felis.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada erat at viverra bibendum. Proin finibus tincidunt suscipit. Duis varius a odio id fringilla. Vestibulum neque sem, luctus gravida mattis.</item>
+        <item>Pellentesque ultricies accumsan est, et elementum ipsum efficitur vitae. Vivamus sodales turpis magna, sit amet cursus orci consectetur nec. Duis sed eleifend tortor, nec sagittis lorem. Donec et neque vitae.</item>
+        <item>Mauris volutpat mauris nisl, rhoncus consequat leo ultrices eget. Aenean porttitor nulla at dui vehicula, non porttitor nunc pretium. Curabitur laoreet a ex eu molestie. Suspendisse dictum libero sit amet.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget lacinia arcu. Proin sit amet turpis congue massa placerat vulputate a ut urna. Donec vitae eleifend nunc, sed elementum mi.</item>
+        <item>Aliquam erat volutpat. Sed congue, tellus in condimentum dictum, massa ipsum vestibulum massa, ut mollis nisl nisi quis turpis. Donec scelerisque, mi vel tempor sollicitudin, velit turpis maximus dui, vel.</item>
+        <item>Quisque pellentesque, enim ac lobortis volutpat, dui odio gravida tortor, et tincidunt eros urna id ipsum. Ut ultricies commodo nunc. Maecenas ut luctus justo, ut imperdiet leo. Curabitur convallis ultrices.</item>
+    </string-array>
+</resources>

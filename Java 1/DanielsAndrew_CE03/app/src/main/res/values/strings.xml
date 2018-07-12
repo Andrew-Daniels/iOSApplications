@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DanielsAndrew_CE03</string>
+    <string name="enterWordPlaceholder">Enter a word to add</string>
+    <string name="averageWordLabel">Average word length:</string>
+    <string name="medianWordLabel">Median word length:</string>
+    <string name="averagePlaceholderValue">0</string>
+    <string name="addBtn">ADD</string>
+    <string name="viewBtn">VIEW</string>
+    <string name="wordSelected">Selected Word:</string>
+    <string name="noWordsLeft">The word list is currently empty.</string>
+    <string name="emptyFieldMessage">Input field is empty</string>
+    <string name="blankSpacesMessage">Input field cannot be all blank spaces</string>
+    <string name="closeBtn">CLOSE</string>
+    <string name="removeWordBtn">REMOVE WORD</string>
+</resources>

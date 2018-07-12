@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DanielsAndrew_CE03</string>
+    <string name="radioBtn_Color1">Purple</string>
+    <string name="radioBtn_Color2">Green</string>
+    <string name="radioBtn_Color3">Black</string>
+    <string name="text_style_optional">Text Style (Optional)</string>
+    <string name="textStyle_label">Bold</string>
+    <string name="text_color_label">Text Color</string>
+    <string name="background_color_label">Background Color</string>
+</resources>
